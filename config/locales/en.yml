@@ -1,43 +1,43 @@
 en:
   logo: <img src="/images/en-logo.png"/>
 
-  hello_astana: "Hello Astana - en"
-  home_title: "Hello Astana - en"
+  hello_astana: "Hello Mesa"
+  home_title: "Hello Mesa"
 
   how_it_works_link: "How It Works"
   information_link: "Information"
   contact_link: "Contact"
   
-  description: "The neighbourhoods of Astana are waking up and they want to talk to you! Hello Astana will run across the whole city, from August 10th to August 31st."
+  description: "Objects across the city of Mesa are waking up and they want to talk to you! Hello Mesa will run from X to Y."
   how_it_works: "How it works"
 
-  pick_an_object: "Find A Street Sign"
-  pick_an_object_text: "Look out for a sign with a clearly displayed street and number"
+  pick_an_object: "Pick an Object"
+  pick_an_object_text: "Look out for a street object with a code on it."
 
-  say_hello: "Open Messenger"
-  say_hello_text: "Open messenger and search for “Salemastana2017"
+  say_hello: "Say Hello"
+  say_hello_text: "Send a text to insert number in this format: “Hello” + object type + #code e.g. “Hello Bin #B6291”."
 
-  keep_talking: "Say Hello"
-  keep_talking_text: "Send a greeting in this format and wait for a reply: “Hello + streetname + #number” (e.g. Hello Respublika #3)"
+  keep_talking: "Keep Talking"
+  keep_talking_text: "You’ll soon get a reply! Answer the object’s questions and learn what other people have to say."
 
-  information: "Information"
+  information: "About Hello Lamp Post"
   information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"
-  information_text: "Around the world, cities have been waking up and talking to their residents (Japan, Singapore, UK, France and the USA). Now the neighbourhoods of Astana are coming to life and they want to learn everything there is to know about themselves. Where is everyone rushing off to in the mornings? Where are the best places to meet friends and hang out? What was here before? What are everyone’s dreams for the future?"
+  information_text: "Around the world, cities have been waking up and talking to their residents (Japan, Singapore, UK, Kazakhstan, France and the USA). Now 4 cities across India are coming to life and want to learn everything there is to know about their residents stories and connections with the UK. e.g. Where is everyone rushing off to in the mornings? Where are the best places to meet friends and hang out? What was here before? What are everyone’s dreams for the future? (Examples need changing)"
   infomation_text_2: "From the 10th of August until the 31st, you will be able to talk to your local neighbourhood (and all the others around the city) and also learn what your neighbours also have to say."
   information_cta_1: "Show More"
   information_cta_2: "Show Less"
 
   more_information: "More Information"
-  more_information_text_1: "Though most of the time they go unnoticed, across the city there are thousands of sign posts hovering above our heads. Hello Astana invites you to see your home in a new way, by giving a new meaning and usage to these signs."
-  more_information_text_2: "We are hijacking/commandeering the signs of Astana and using them in a unique way. In the same way that hashtags (#) work in social media, we can use the street names and numbers of each neighbourhood to focus conversations on a particular theme - in this case, very specific locations."
-  more_information_text_3: "You can share with everyone else the things that you like, what you care about, your opinions, your memories of the past and your ambitions for the future. You can then learn what your nearest neighbours think and care about too. Maybe you’ll learn something about your home you never knew before! Maybe you will see it forever changed in some new way!"
-  more_information_text_4: "The interaction takes the form of a conversation. The neighbourhoods have woken up for the first time and they are curious about the world around them. They have a lot of questions and they need you to help answer them. Some neighbourhoods have figured out a little bit about themselves already and will have questions on specific themes - see if you can hunt these places down!"
+  more_information_text_1: "If you look closely, most street objects have a manufacturer or maintenance reference code on them. These codes are used by operators to distinguish one object from another. Hello Lamp Post gives a new use to these existing codes by allowing localised conversations in public spaces."
+  more_information_text_2: "You can have a chat with any object - drain covers, bins, public toilets, utility boxes, trees and bike stations."
+  more_information_text_3: "The interaction takes the form of a conversation. The objects are curious about the world they find themselves in and want to ask you questions about it. The response they receive are then shared with other players meaning an object understands the personality and people of the local area."
+  more_information_text_4: "Conversations can be started from any mobile phone that sends text (SMS) messages. It’s free to play (standard SMS and data rates apply) and it’s suitable for all ages."
   
   contact_us: "About Us"
-  contact_us_title: "About Hello Astana"
-  contact_us_text_1: "Hello Astana has been commissioned by The British Council and it is supported by the Urban Development Centre and the City of Astana."
-  contact_us_text_2: "It is produced by The Playable City, a part of the Watershed Arts Trust."
-  contact_us_text_3: "Hello Astana is part of the Hello Lamp Post family of projects, conceived and built by PAN Studio. Hello Lamp Post was first commissioned for Watershed’s Playable City Award 2013 and ran for 8 weeks in Bristol. The project was developed with Tom Armitage and Gyorgyi Galik."
+  contact_us_title: "About Hello Mesa"
+  contact_us_text_1: "Hello Lamp Post India will run between insert dates in partnership with XXXX & XXXX."
+  contact_us_text_2: "The project will run across the following 4 Indian cities:"
+  contact_us_text_3: "Hello Lamp Post was conceived and built by PAN Studio. Hello Lamp Post was first commissioned for Watershed’s Playable City Award 2013 and ran for 8 weeks in Bristol. The project was developed with Tom Armitage and Gyorgyi Galik."
   contact_us_text_4: "If you have any questions about the project you can get in touch with us here."
   contact_us_cta: "Get In Touch"
   
