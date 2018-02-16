@@ -33,6 +33,10 @@ a {
 		float: right;
 		margin-left: 10px;
 	}
+
+	&:hover{
+		@include transition(all, 0.2s, ease-in-out);
+	}
 }
 
 .link-exit {

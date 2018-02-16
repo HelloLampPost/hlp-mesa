@@ -12,3 +12,8 @@ Installation:
 Running the website:
 
 * Run `bundle exec rackup`
+
+Running Sass:
+
+* Access `hlp-mesa/assets/stylesheets`
+* Run `sass --watch style.scss:style.css`
