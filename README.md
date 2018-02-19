@@ -15,5 +15,5 @@ Running the website:
 
 Running Sass:
 
-* Access `hlp-mesa/assets/stylesheets`
+* Access `...hlp-mesa/assets/stylesheets`
 * Run `sass --watch style.scss:style.css`
