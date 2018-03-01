@@ -292,7 +292,7 @@
 	  font-size: 21px;
 	  font-family: "Gotham-bold", sans-serif;
 	  line-height: 1.3;
-	   @include border-radius(0 10px 10px 10px);
+	  @include border-radius(0 10px 10px 10px);
 
 	  &:after {
 	  	content: "";
