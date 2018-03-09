@@ -581,7 +581,6 @@ small, .font_small {
 
 .swiper-container {
   width: 100%;
-  padding-top: 40px;
   padding-bottom: 30px; }
   @media (max-width: 960px) {
     .swiper-container {
@@ -775,7 +774,7 @@ a {
   display: block;
   width: intrinsic;
   max-width: 180px;
-  color: #3B3B3B;
+  color: #2a2a2a;
   font-family: "Gotham-Bold", sans-serif;
   font-size: 1em;
   border: 0; }
@@ -809,6 +808,9 @@ a {
   margin-top: 100px;
   z-index: 100; }
 
+@-moz-document url-prefix() {
+  #mesaMap {
+    display: none; } }
 .pop-up {
   display: block;
   width: 320px;
@@ -853,6 +855,9 @@ a {
     .pop-up p {
       font-size: 12px;
       width: 85%; } }
+
+.headerdesktop {
+  display: none; }
 
 .hero {
   width: 100%;
@@ -967,12 +972,12 @@ a {
       width: calc(100% - 40px); } }
 
 .hero.message {
-  height: 120vh;
-  max-height: 825px; }
+  height: 100vh;
+  max-height: 560px;
+  padding-top: 50px; }
   .hero.message .text-row {
     position: relative;
-    z-index: 50;
-    margin-top: 120px; }
+    z-index: 50; }
     .hero.message .text-row .col-6 {
       display: block;
       float: none;
@@ -981,7 +986,7 @@ a {
     .hero.message .text-row .col-6 h1 {
       font-size: 1.45em; }
   .hero.message .bubble {
-    margin-top: 100px;
+    margin-top: 50px;
     width: -moz-calc(50% - 15px);
     width: -webkit-calc(50% - 15px);
     width: calc(50% - 15px);
@@ -1158,7 +1163,10 @@ a {
     border-bottom: 0; }
   @media (max-width: 960px) {
     .hero.message {
-      max-height: 850px; }
+      height: 550px;
+      max-height: 850px;
+      padding-top: 25px;
+      margin-top: 0; }
       .hero.message img.bg-image {
         position: absolute;
         top: 0;
@@ -1166,7 +1174,7 @@ a {
         width: 400%; }
       .hero.message .buttons {
         width: 100%;
-        top: 380px; }
+        top: 400px; }
       .hero.message .buttons button:after {
         display: none; }
       .hero.message .text-row {
@@ -1425,7 +1433,6 @@ a {
     height: 100vh; }
   .contact .col-4 {
     float: right;
-    padding-top: 15px;
     text-align: center;
     position: relative; }
     .contact .col-4 h3, .contact .col-4 p {
@@ -1435,7 +1442,7 @@ a {
       box-sizing: border-box;
       width: 75%;
       display: block;
-      margin: 35px auto;
+      margin: 15px auto;
       float: none; }
     .contact .col-4 span {
       color: #fff; }
@@ -1480,6 +1487,8 @@ a {
         margin-left: 0;
         padding: 0;
         margin: 0; }
+      .supporters .col-3:nth-child(3) {
+        clear: both; }
       .supporters .col-3 img {
         width: 90%;
         padding: 0 0; } }

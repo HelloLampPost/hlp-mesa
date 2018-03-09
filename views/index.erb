@@ -55,23 +55,44 @@
         </div>
       </div>
     </section>
-
-    <section>
-          <div class="row">
-              <div class="image">
-                <iframe width="1024px" height="" src="https://gis.mesaaz.gov/MAC/LampPost/" frameborder="0" scrolling="no"></iframe>
-              </div>
+  <!--
+  <section class="hero message">
+    <div class="grid-container">
+        <div class="row text-row">
+          <div class="col-6">
+            <h1>What is Mesa talking about?</h1>
           </div>
-    </section>
-
+        </div>
+          <div class="conversation-demo">
+              <div class="bubble question" id="question-bubble">
+                <div class="bubble-inner">
+                  <h4>Question</h4>
+                  <div class="text">Template Question?</div>
+                </div>
+              </div>
+              <div class="bubble answer" id="answer-bubble">
+                <div class="bubble-inner">
+                  <h4>Answer</h4>
+                  <div class="text">Template answer</div>
+                </div>
+                <div class="object-ref">Marine Education Centre #001</div>s
+              </div>
+              <div class="buttons">
+                <button class="new-question hidden" id="new-question-button">Next Question</button>
+                <button class="next-answer hidden" id="next-answer-button">Next Answer</button>
+            </div>
+          </div>
+      </div>
+  </section>
+  -->
     <section id="information" class="information">
       <img src="/images/bg-how-it-works.jpg">
       <div class="right-block"></div>
       <div class="grid-container">
         <div class="col-6 right">
-          <h5><%= I18n.t(:information) %></h5>
           <h1><%= I18n.t(:information_title) %></h1>
           <p><%= I18n.t(:information_text) %></p>
+          <p><%= I18n.t(:infomation_text_2) %></p>
           <a class="link-btn-one js-learn-more">Show More</a>
         </div>
       </div>
@@ -92,7 +113,6 @@
     <section id="contact" class="contact">
       <div class="grid-container">
         <div class="col-6">
-          <h5><%= I18n.t(:contact_us) %></h5>
           <h1><%= I18n.t(:contact_us_title) %></h1>
           <p><%= I18n.t(:contact_us_text_1) %></p>
           <p><%= I18n.t(:contact_us_text_2) %></p>
@@ -102,37 +122,44 @@
         </div>
         <div class="col-4">
           <div class="swiper-controls">
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-              </div>
-            <div class="swiper-container">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="swiper-container">
                   <div class="swiper-wrapper">
                      <div class="swiper-slide">
-                        <h3>Hello Lamp Post Brighton, <span>2016</span></h3>
-                        <div class="image-circle"><img src="/images/hlp-brighton.jpg"></div>
+                        <div class="image-circle"><img src="/images/dinosaur.png"></div>
+                        <h3><span>Name: </span>Dinosaur<br><span>Code: </span>#MESA23</h3>
                         <p><%= I18n.t(:hello_lampost_brighton) %></p>
                       </div>
                       <div class="swiper-slide">
-                        <h3>Hello Lamp Post Austin, <span>2015</span></h3>
-                        <div class="image-circle"><img src="/images/hlp-austin.jpg"></div>
+                        <div class="image-circle"><img src="/images/lamp-post.png"></div>
+                        <h3><span>Name: </span>Lamp Post<br><span>Code: </span>#MESA3</h3>
                         <p><%= I18n.t(:hello_lampost_austin) %></p>
                       </div>
                       <div class="swiper-slide">
-                        <h3>Hello Lamp Post Singapore, <span>2015</span></h3>
-                        <div class="image-circle"><img src="/images/hlp-singapore.jpg"></div>
+                        <div class="image-circle"><img src="/images/trash-can.png"></div>
+                        <h3><span>Name: </span>Trash Can<br><span>Code: </span>#MESA24</h3>
                         <p><%= I18n.t(:hello_lampost_singapore) %></p>
                       </div>
                       <div class="swiper-slide">
-                        <h3>Hello Lamp Post Bristol, <span>2013</span></h3>
-                        <div class="image-circle"><img src="/images/hlp-bristol.jpg"></div>
+                        <div class="image-circle"><img src="/images/lamp-post.png"></div>
+                        <h3><span>Name: </span>Lamp Post<br><span>Code: </span>#MESA3</h3>
                         <p><%= I18n.t(:hello_lampost_bristol) %></p>
                       </div>
                   </div>
-              </div>
+            </div>
           </div> 
         </div>
       </div>
     </section>
+
+    <section id="mesaMap">
+          <div class="image">
+            <iframe width="1024px" height="" src="https://gis.mesaaz.gov/MAC/LampPost/" frameborder="0" scrolling="no"></iframe>
+          </div>
+    </section>
+
     <section class="supporters">
       <div class="grid-container">
         <div class="row">

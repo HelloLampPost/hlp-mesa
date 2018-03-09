@@ -3,6 +3,12 @@
 // 	Sections
 // =================================================================
 
+@-moz-document url-prefix() {
+
+    #mesaMap { display: none; }
+
+}
+
 .pop-up {
 	display: block;
 	width: 320px;
@@ -61,6 +67,10 @@
 			width: 85%;
 		}
 	}
+}
+
+.headerdesktop {
+	display:none;
 }
 
 .hero {
@@ -227,13 +237,13 @@
 }
 
 .hero.message {
-	height: 120vh;
-	max-height: 825px;
+	height: 100vh;
+	max-height: 560px;
+	padding-top: 50px;
 
 	.text-row {
 		position: relative;
 		z-index: 50;
-		margin-top: 120px;
 
 		.col-6 {
 			display: block;
@@ -249,7 +259,7 @@
 
 
 	.bubble {
-		margin-top: 100px;
+	  margin-top: 50px;
 	  @include calc(width, "50% - 15px");
 	  box-sizing: border-box;
 	  position: absolute;
@@ -452,7 +462,10 @@
 	}
 
 	@include mq("small", "max-width") {
+		height: 550px;
 		max-height: 850px;
+		padding-top: 25px;
+		margin-top: 0;
 
 		img.bg-image {
 			position: absolute;
@@ -463,7 +476,7 @@
 
 		.buttons {
 			width: 100%;
-			top: 380px;
+			top: 400px;
 		}
 
 		.buttons button:after {
@@ -848,7 +861,6 @@
 
 	.col-4 {
 		float: right;
-		padding-top: 15px;
 		text-align: center;
 		position: relative;
 
@@ -862,7 +874,7 @@
 			box-sizing: border-box;
 			width: 75%;
 			display: block;
-			margin: 35px auto;
+			margin: 15px auto;
 			float: none;
 		}
 
@@ -928,6 +940,10 @@
 			margin-left: 0;
 			padding: 0;
 			margin: 0;
+		}
+
+		.col-3:nth-child(3) {
+		clear: both;
 		}
 
 		.col-3 img {
