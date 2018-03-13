@@ -8,7 +8,8 @@ en:
   information_link: "Information"
   contact_link: "Contact"
   
-  description: "Mesa’s street objects are coming to life and they want to talk to you! The project will run from 17th March to 15th April 2018."
+  description: "Mesa’s street objects are coming to life and they want to talk to you!"
+  opening_line: "Live from March 17th to April 15th."
   how_it_works: "How It Works"
 
   pick_an_object: "Choose an Object"
@@ -36,7 +37,7 @@ en:
   
   contact_us: "About Us"
   contact_us_title: "About Hello Mesa"
-  contact_us_text_1: "Hello Mesa will run from the 17th March to the 15th April 2018, in partnership with Mesa Arts Centre."
+  contact_us_text_1: "Hello Mesa will run from the 17th March to the 15th April 2018 in partnership with Mesa Arts Centre."
   contact_us_text_2: "Hello Lamp Post was conceived and built by PAN Studio. Hello Lamp Post was first commissioned for Watershed’s Playable City Award 2013 and ran for 8 weeks in Bristol."
   contact_us_text_3: "If you have any questions about the project you can get in touch with us using the link below."
   contact_us_text_4: ""
