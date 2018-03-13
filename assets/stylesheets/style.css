@@ -876,12 +876,12 @@ a {
     font-size: 1.5em;
     text-align: center;
     line-height: 1.25;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     color: #2A2A2A; }
   .hero h1 {
     text-align: center;
     line-height: 1.25;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: #2A2A2A; }
   .hero .link-btn-one {
     display: block;
