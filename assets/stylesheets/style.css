@@ -811,6 +811,24 @@ a {
 @-moz-document url-prefix() {
   #mesaMap {
     display: none; } }
+@media (max-width: 960px) {
+  #mesaMap {
+    display: none; } }
+
+#mapLink {
+  display: none; }
+  @media (max-width: 960px) {
+    #mapLink {
+      display: inline; } }
+  #mapLink .row {
+    margin: 0 0 60px 0; }
+  #mapLink .link-btn-one {
+    background: #2A2A2A;
+    color: #ffd100;
+    max-width: 270px; }
+    #mapLink .link-btn-one:after {
+      background-image: url("/images/arrow-yellow.svg"); }
+
 .pop-up {
   display: block;
   width: 320px;
@@ -967,9 +985,13 @@ a {
         bottom: 30px;
         display: block; }
       .hero h1 {
-        font-size: 1.4em; }
+        font-size: 1.4em;
+        margin-bottom: 15px; }
       .hero h2 {
-        font-size: 1em; }
+        font-size: 1em;
+        margin-bottom: 0; }
+      .hero .row {
+        margin: 15px 0; }
       .hero .text-row {
         margin-top: 50px; }
       .hero .col-8 {

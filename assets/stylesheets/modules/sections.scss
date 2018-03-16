@@ -4,9 +4,31 @@
 // =================================================================
 
 @-moz-document url-prefix() {
-
     #mesaMap { display: none; }
+}
 
+#mesaMap {
+	@include mq("small", "max-width") {
+		display: none;
+	}
+}
+
+#mapLink{
+	display: none;
+	@include mq("small", "max-width") { display: inline;}
+
+	.row{
+		margin: 0 0 60px 0;
+	}
+
+	.link-btn-one {
+		background: $colorTwo;
+		color: $colorOne;
+		max-width: 270px;
+		&:after {
+			background-image: url('/images/arrow-yellow.svg');
+		}
+	}
 }
 
 .pop-up {
@@ -216,10 +238,16 @@
 
 		h1 {
 			font-size: 1.4em;
+			margin-bottom: 15px;
 		}
 
 		h2 {
 			font-size: 1em;
+			margin-bottom: 0;
+		}
+
+		.row{
+			margin: 15px 0;
 		}
 
 		.text-row {
