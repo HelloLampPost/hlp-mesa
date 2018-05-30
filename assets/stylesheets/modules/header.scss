@@ -47,15 +47,35 @@ header {
 		a {
 			color: $colorTwo;
 			font-size: 1.1em;
-			font-weight: 600;
-			font-family: gotham-bold;
-			cursor: pointer;
-			border-bottom: 2px solid $colorOne;
+			font-family: gotham-bold, sans-serif;
+			position: relative;
+			text-decoration: none;
+		}
+
+		a:before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: -2px;
+			left: 0;
+			border-radius: 1px;
+			background-color: $colorTwo;
+			visibility: hidden;
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transition: all 0.2s ease-in-out 0s;
+			transition: all 0.2s ease-in-out 0s;
 		}
 
 		a:hover {
-			border-bottom: 2px solid $colorTwo;
-			@include transition(all, 0.2s, ease-in-out)
+			color: $colorTwo;
+		}
+
+		a:hover:before {
+			visibility: visible;
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
 		}
 	}
 
